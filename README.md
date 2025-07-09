@@ -1,6 +1,7 @@
-# ARCausal
+# M3State
 
-The repo is the official implementation for the paper: [ARCausal:  Causal Mask in Transformer via Vector Autoregressive Learning for Multivariate Time Series Forecasting].
+The repo is the official implementation for the paper: [M3State:  Mamba-Enhanced Multiscale State Space Selection for Multivariate Time Series Forecasting].
+The code will released immediatly when the work is accepted.
 
 
 ## Installation 
@@ -16,20 +17,23 @@ Train and evaluate the model. We provide all the above tasks under the folder ./
 
 ```
 # Multivariate forecasting with ARCausal
-bash ./scripts/ARCausal_ETTh1.sh
-bash ./scripts/ARCausal_ETTh2.sh
-bash ./scripts/ARCausal_ETTm1.sh
-bash ./scripts/ARCausal_ETTm2.sh
-bash ./scripts/ARCausal_ECL.sh
-bash ./scripts/ARCausal_Traffic.sh
-bash ./scripts/ARCausal_WTH.sh
-bash ./scripts/ARCausal_Flight.sh
-bash ./scripts/ARCausal_Exchange.sh
+bash ./scripts/M3State_ETTh1.sh
+bash ./scripts/M3State_ETTh2.sh
+bash ./scripts/M3State_ETTm1.sh
+bash ./scripts/M3State_ETTm2.sh
+bash ./scripts/M3State_ECL.sh
+bash ./scripts/M3State_WTH.sh
+bash ./scripts/M3State_Solar.sh
+bash ./scripts/M3State_Exchange.sh
+bash ./scripts/M3State_PEMS03.sh
+bash ./scripts/M3State_PEMS04.sh
+bash ./scripts/M3State_PEMS07.sh
+bash ./scripts/M3State_PEMS08.sh
 ```
 
 ## Main Result of Multivariate Forecasting
 
-We evaluate the ARCausal on challenging multivariate forecasting benchmarks (**generally hundreds of variates**). **Comprehensive good performance** (MSE/MAE) is achieved.
+We evaluate the M3State on challenging multivariate forecasting benchmarks (**generally hundreds of variates**). **Comprehensive good performance** (MSE/MAE) is achieved.
 
 
 ## Acknowledgement
@@ -45,7 +49,7 @@ We appreciate the following GitHub repos a lot for their valuable code and effor
 - TimeMixer (https://github.com/kwuking/TimeMixer)
 - Time-Series-Library (https://github.com/thuml/Time-Series-Library)
 
-This work was supported in part by  the Science and Technology Talents and Platform Plan: Technology Innovation Center of Yunnan Province for Digital Water Engineering under Grant 202305AK34003 and in part by the Yunnan Zhang Zongliang Scientist Studio under Grant 2021KXJGZS01.
+This work was supported in part by  the Science and Technology Talents and Platform Plan: Technology Innovation Center of Yunnan Province for Digital Water Engineering under Grant 202305AK34003, in part by the Yunnan Zhang Zongliang Scientist Studio under Grant 2021KXJGZS01 and in part by Yunnan Fundamental Research Projects under Grant 202401AT070471.
 
 ## Contact
 
